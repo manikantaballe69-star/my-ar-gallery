@@ -140,14 +140,6 @@ position="0 0 0">
 
 <script>
 document.getElementById("startButton").addEventListener("click", () => {
-
-  const videos = document.querySelectorAll("video");
-
-  videos.forEach(v => {
-    v.muted = false;
-    v.play().catch(() => {});
-  });
-
   document.getElementById("startButton").style.display = "none";
 });
 </script>
